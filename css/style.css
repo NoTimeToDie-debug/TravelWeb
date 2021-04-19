@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+.clear__both {
+    clear: both;
+}
+
+.float__left {
+    float: left;
+}
+
+.float__right {
+    float: right;
+}
+
+header {
+    padding: 0 3rem;
+    height: 7rem;
+}
+
+header .header__left {
+    width: 50%;
+    height: 100%;
+}
+
+header .header__left .logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+header .header__left .logo p {
+    text-transform: uppercase;
+    color: #82b62d;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .header__left .logo span{
+    color: black;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+.header__right {
+    width: 50%;
+    height: 100%;
+}
+
+.header__right p {
+    padding: 1rem 0px 0px 15rem;
+    color: #c5c0c5;
+}
+
+.header__right p span {
+    padding: 0px 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 1rem;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul li a.active {
+    color: #f1b49d;
+}
+
+nav .nav__icons i {
+    padding: 0.2rem;
+}
+
+/* carousel */
+#carousel {
+    background-image: url(./../images/1.jpg);
+    height: 50rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+#carousel h1 {
+    font-size: 4rem;
+}
+
+#carousel h4 {
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+#carousel p {
+    width: 50%;
+    margin: auto;
+}
+
+.btn__more {
+    width: 4rem;
+    height: 2rem;
+    background-color: #82b62d;
+    border: none;
+    color: white;
+    font-size: 1rem;
+}
+
+/* welcome */
+#welcome {
+    padding: 3rem;
+}
+
+#welcome h1 {
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 1.5rem;
+    text-transform: uppercase;
+}
+
+#welcome .welcome__container {
+    height: 20rem;
+}
+
+#welcome .welcome__container h4 {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+#welcome .welcome__container p {
+    padding-left: 1rem;
+    color: #c5c0c5;
+}
+
+/* Services */
+#services {
+    background-color: #f0f5f8;
+    width: 100%;
+    padding: 3rem;
+}
+
+#services h1 {
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 1.5rem;
+    text-transform: uppercase;
+}
+
+#services .services__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+#services .services__item p {
+    color: #c5c0c5;
+    padding: 1rem;
+}
+
+#services .services__item h5 {
+    font-size: 1rem;
+}
+
+#services .services__item img {
+    padding: 1rem;
+}
+
+/* News */
+#news {
+    padding: 3rem;
+}
+
+#news h1 {
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 1.5rem;
+    text-transform: uppercase;
+}
+
+#news .news__container {
+    height: 20rem;
+}
+
+#news .news__container h1 {
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 1.5rem;
+    text-transform: uppercase;
+}
+
+#news .news__container h4 {
+    font-size: 2.5rem;
+    padding: 1.5rem;
+}
+
+#news .news__container i {
+    margin-right: 0.5rem;
+}
+
+#news .news__container span {
+    margin-right: 3rem;
+}
+
+/* Join The Club */
+#join {
+    padding: 3rem;
+    background-image: url(./../images/5.jpg);
+    height: 15rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    position: relative;
+}
+
+#join h1 {
+    font-size: 3rem;
+    letter-spacing: 5px;
+    padding: 1.5rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+#join input {
+    width: 25rem;
+    height: 2.5rem;
+}
+
+#join button {
+    color: white;
+    background-color: #82b62d;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+#join .join__bottom {
+    position: absolute;
+    height: 7%;
+    width: 100%;
+    background-color: rgba(32,47,71,0.7);
+    left: 0;
+    bottom: 0;
+}
+
+/* Footer */
+footer {
+    background-color: #f0f5f8;
+    height: 22rem;
+    padding: 3rem;
+}
+
+footer .footer__items {
+    width: 30%;
+}
+
+footer .footer__items h4 {
+    font-size: 1.5rem;
+    padding: 1.5rem 1.5rem 1.5rem 0.5rem;
+}
+
+footer .footer__items p {
+    color: #bdc5c2;
+    padding: 0.5rem ;
+}   
+
+footer ul li {
+    list-style: none;
+    padding: 0.5rem;
+    color: #bdc5c2;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+footer .eve__nav {
+    display: flex;
+}
+
+footer .footer__navigation {
+    padding-left: 5rem;
+}
+
+footer .footer__navigation ul {
+    padding-left: 1.5rem;
+}
+
+.footer__bottom {
+    width: 100% ;
+    height: 3rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__bottom span {
+    color: #82b62d;
+    padding: 0 0.5rem;
+}
+
