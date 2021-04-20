@@ -5,7 +5,9 @@
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
 }
-
+body {
+    position: relative;
+}
 /* header */
 .clear__both {
     clear: both;
@@ -132,6 +134,13 @@ nav .nav__icons i {
     font-size: 1rem;
 }
 
+.icon__top {
+    position: fixed;
+    z-index: 1;
+    top: 500px;
+    right: 4px;
+}
+
 /* welcome */
 #welcome {
     padding: 3rem;
@@ -189,8 +198,14 @@ nav .nav__icons i {
     font-size: 1rem;
 }
 
-#services .services__item img {
-    padding: 1rem;
+#services .services__item i {
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 2.5rem;
+    color: #82b62d;
+    background-color: white;
+    margin: 1.5rem 0;
 }
 
 /* News */
@@ -261,6 +276,7 @@ nav .nav__icons i {
     background-color: #82b62d;
     width: 2.5rem;
     height: 2.5rem;
+    border: none;
 }
 
 #join .join__bottom {
